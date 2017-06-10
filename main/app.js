@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var electron_1 = require("electron");
+var Main_1 = require("./Main");
+Main_1.default.main(electron_1.app, electron_1.BrowserWindow);
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL21haW4vYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEscUNBQTZDO0FBQzdDLCtCQUEwQjtBQUUxQixjQUFJLENBQUMsSUFBSSxDQUFDLGNBQUcsRUFBQyx3QkFBYSxDQUFDLENBQUMiLCJmaWxlIjoiLi4vLi4vbWFpbi9hcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhcHAsQnJvd3NlcldpbmRvdyB9IGZyb20gJ2VsZWN0cm9uJztcbmltcG9ydCBNYWluIGZyb20gJy4vTWFpbic7XG5cbk1haW4ubWFpbihhcHAsQnJvd3NlcldpbmRvdyk7Il19

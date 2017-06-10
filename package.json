@@ -1,0 +1,41 @@
+{
+  "name": "electron-typescript-react",
+  "version": "1.0.0",
+  "description": "Quickstart for electron apps",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "start": "gulp && electron dist/main/app.js",
+    "build": "gulp && electron-packager dist/main/app.js 'helloworld'"
+  },
+  "repository": "https://github.com/kiwiscanfly/electron-typescript-react",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/react": "^15.0.27",
+    "@types/react-dom": "^15.5.0",
+    "del": "^3.0.0",
+    "electron": "~1.6.2",
+    "electron-react-devtools": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.7",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "systemjs": "^0.20.13",
+    "electron-debug": "^1.1.0"
+  }
+}
