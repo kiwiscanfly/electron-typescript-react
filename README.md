@@ -1,2 +1,2 @@
-# Electron Typescript React Skeleton
-
+# electron-typescript-react
+Quickstart for electron apps
