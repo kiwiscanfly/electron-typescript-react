@@ -3,10 +3,10 @@
 Quickstart for electron apps. Uses gulp.js to compile the Typescript, Provides React for the UI. Main and render threads have seperate compilation.
 
 ## Dependencies
--- [Electron](https://electron.atom.io/)
--- [gulp.js](http://gulpjs.com/)
--- [TypeScript](https://www.typescriptlang.org/)
--- [React](https://facebook.github.io/react/)
+- [Electron](https://electron.atom.io/)
+- [gulp.js](http://gulpjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://facebook.github.io/react/)
 
 ## Installation
 ```
