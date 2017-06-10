@@ -22,7 +22,7 @@ gulp.task('default', function (done) {
 });
 
 gulp.task('clear', function (done) {
-    del.sync(['dist/**/*'], { force: true });
+    del.sync(['dist/**/*', '!dist/README.md'], { force: true });
     done();
 });
 
