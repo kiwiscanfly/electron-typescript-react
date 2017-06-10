@@ -15,8 +15,8 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Daryl Milne",
+  "license": "CC-BY-4.0",
   "devDependencies": {
     "@types/react": "^15.0.27",
     "@types/react-dom": "^15.5.0",

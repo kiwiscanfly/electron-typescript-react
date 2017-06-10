@@ -1,5 +1,6 @@
-//import {Electron} from 'electron';
-
+/**
+ * Controller of the main window
+ */
 export default class Main {
     static mainWindow: Electron.BrowserWindow;
     static application: Electron.App;
@@ -14,6 +15,7 @@ export default class Main {
         // when you should delete the corresponding element.
         Main.mainWindow = null;
     }
+
     static onReady(){
         // this is a dependency we will have to live with
         // because we can't create BrowserWindow until
@@ -23,6 +25,7 @@ export default class Main {
         Main.mainWindow.webContents.openDevTools();
         Main.mainWindow.on('closed', Main.onClose);
     }
+
     static main(app: Electron.App,browserWindow: typeof Electron.BrowserWindow){
         Main.BrowserWindow = browserWindow;
         Main.application = app;
