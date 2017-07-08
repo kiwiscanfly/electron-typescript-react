@@ -32,11 +32,6 @@ gulp.task('copy-app-package-file', function () {
         .pipe(gulp.dest('dist/render'));
 });
 
-gulp.task('copy-index-html', function () {
-    return gulp.src('src/render/index.html')
-        .pipe(gulp.dest('dist/render'));
-});
-
 gulp.task('build-vendor', function(){
 
     return gulp.src([
@@ -79,4 +74,9 @@ gulp.task('build-html', function () {
     return gulp.src('src/render/index.html')
         .pipe(inject(sources, {ignorePath: 'dist',  addRootSlash: false }))
         .pipe(gulp.dest('dist/render'));
+});
+
+gulp.task('copy-html', function () {
+    return gulp.src('src/render/**/*.html')
+            .pipe(gulp.dest('dist/render'));
 });

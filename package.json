@@ -5,7 +5,7 @@
   "main": "dist/main/main.js",
   "scripts": {
     "start": "gulp && electron dist/main/app.js",
-    "build": "gulp && electron-packager dist/main/app.js 'helloworld'"
+    "build": "gulp && electron-packager --overwrite dist/main/app.js 'helloworld'"
   },
   "repository": "https://github.com/kiwiscanfly/electron-typescript-react",
   "keywords": [
